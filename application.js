@@ -25,7 +25,7 @@ function isSmallEnough(value){
     return value < 4;
 }
 
-let newArray = lapRounds.filter(isBigEnough);
+let newArray = lapRounds.filter(isSmallEnough);
 console.log(newArray);
 
 //.filter kan relatief snel worden gebruikt en heeft maar weinig code nodig om zijn resultaat te bereiken. Daardoor is het ook overzichtelijker.
